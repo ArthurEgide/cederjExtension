@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html dir="ltr" xml:lang="pt-br" class="yui3-js-enabled" lang="pt-br"><head>
+        <title>Curso: Fundamentos de Programação</title>
+        <link rel="shortcut icon" href="https://graduacao.cederj.edu.br/ava/theme/image.php/cecierj_clean/theme/1542859489/favicon">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="moodle, Curso: Fundamentos de Programação">
+<link rel="stylesheet" type="text/css" href="novoBotao_arquivos/yui_combo_002.css"><script type="text/javascript" async="" src="novoBotao_arquivos/ga.js"></script><script charset="utf-8" id="yui_3_17_2_1_1545094648891_8" src="novoBotao_arquivos/yui_combo_005.js" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1545094648891_18" src="novoBotao_arquivos/module.js" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1545094648891_19" src="novoBotao_arquivos/yui_combo_006.js" async=""></script><link charset="utf-8" rel="stylesheet" id="yui_3_17_2_1_1545094648891_51" href="novoBotao_arquivos/yui_combo.css"><script charset="utf-8" id="yui_3_17_2_1_1545094648891_52" src="novoBotao_arquivos/yui_combo_002.js" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1545094648891_260" src="novoBotao_arquivos/yui_combo_003.js" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1545094648891_261" src="novoBotao_arquivos/yui_combo.js" async=""></script><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="novoBotao_arquivos/all.css">
+<link rel="stylesheet" type="text/css" href="novoBotao_arquivos/userstyles.css">
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/graduacao.cederj.edu.br\/ava","sesskey":"qK8NpSmXfI","loadingicon":"https:\/\/graduacao.cederj.edu.br\/ava\/theme\/image.php\/cecierj_clean\/core\/1542859489\/i\/loading_small","themerev":"1542859489","slasharguments":1,"theme":"cecierj_clean","jsrev":"1542859489","admin":"admin","svgicons":true};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":false,"base":"https:\/\/graduacao.cederj.edu.br\/ava\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/graduacao.cederj.edu.br\/ava\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/graduacao.cederj.edu.br\/ava\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/graduacao.cederj.edu.br\/ava\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/graduacao.cederj.edu.br\/ava\/theme\/yui_combo.php?m\/1542859489\/","combine":true,"comboBase":"https:\/\/graduacao.cederj.edu.br\/ava\/theme\/yui_combo.php?","ext":false,"root":"m\/1542859489\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-dock":{"requires":["base","node","event-custom","event-mouseenter","event-resize","escape","moodle-core-dock-loader","moodle-core-event"]},"moodle-core-dock-loader":{"requires":["escape"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-formautosubmit":{"requires":["base","event-key"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-checknet":{"requires":["base-base","moodle-core-notification-alert","io-base"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-calendar-info":{"requires":["base","node","event-mouseenter","event-key","overlay","moodle-calendar-info-skin"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-course-modchooser":{"requires":["moodle-core-chooserdialogue","moodle-course-coursebase"]},"moodle-course-toolboxes":{"requires":["node","base","event-key","node","io","moodle-course-coursebase","moodle-course-util"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-form-showadvanced":{"requires":["node","base","selector-css3"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-form-passwordunmask":{"requires":[]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-qbankmanager":{"requires":["node","selector-css3"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-qtype_ddimageortext-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-qtype_ddimageortext-form":{"requires":["moodle-qtype_ddimageortext-dd","form_filepicker"]},"moodle-qtype_ddmarker-dd":{"requires":["node","event-resize","dd","dd-drop","dd-constrain","graphics"]},"moodle-qtype_ddmarker-form":{"requires":["moodle-qtype_ddmarker-dd","form_filepicker","graphics","escape"]},"moodle-qtype_ddwtos-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_bigbluebuttonbn-modform":{"requires":["base","node"]},"moodle-mod_bigbluebuttonbn-recordings":{"requires":["base","node","datasource-get","datasource-jsonschema","datasource-polling","moodle-core-notification"]},"moodle-mod_bigbluebuttonbn-rooms":{"requires":["base","node","datasource-get","datasource-jsonschema","datasource-polling","moodle-core-notification"]},"moodle-mod_bigbluebuttonbn-broker":{"requires":["base","node","datasource-get","datasource-jsonschema","datasource-polling","moodle-core-notification"]},"moodle-mod_bigbluebuttonbn-imports":{"requires":["base","node"]},"moodle-mod_forum-subscriptiontoggle":{"requires":["base-base","io-base"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-randomquestion":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-repaginate":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-quizquestionbank":{"requires":["base","event","node","io","io-form","yui-later","moodle-question-qbankmanager","moodle-core-notification-dialogue"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_html-button":{"requires":["moodle-editor_atto-plugin","event-valuechange"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"https:\/\/graduacao.cederj.edu.br\/ava\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/graduacao.cederj.edu.br\/ava\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1542859489\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/graduacao.cederj.edu.br\/ava\/lib\/javascript.php\/1542859489\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/graduacao.cederj.edu.br\/ava\/lib\/javascript.php\/1542859489\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/mathjax\/2.7.1\/MathJax.js?delayStartupUntil=configured"},"block_accessibility":{"name":"block_accessibility","fullpath":"https:\/\/graduacao.cederj.edu.br\/ava\/lib\/javascript.php\/1542859489\/blocks\/accessibility\/module.js","requires":["base","node","stylesheet"]}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-27099625-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="core/first" src="novoBotao_arquivos/first.js"></script><script type="text/x-mathjax-config">
+
+MathJax.Hub.Config({
+    config: ["Accessible.js", "Safe.js"],
+    errorSettings: { message: ["!"] },
+    skipStartupTypeset: true,
+    messageStyle: "none"
+});
+</script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jqueryprivate" src="novoBotao_arquivos/jquery-private.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="novoBotao_arquivos/jquery-3.js"></script></head>
+
+    <body id="page-course-view-onetopic" class="format-onetopic  path-course path-course-view gecko dir-ltr lang-pt_br yui-skin-sam yui3-skin-sam graduacao-cederj-edu-br--ava pagelayout-course course-126 context-653 category-5 two-column has-region-side-pre used-region-side-pre has-region-side-post used-region-side-post has-region-center empty-region-center layout-option-langmenu jsenabled">
+
+        <div class="skiplinks">
+    <a href="#maincontent" class="skip">Ir para o conteúdo principal</a>
+</div><script type="text/javascript" src="novoBotao_arquivos/yui_combo_004.js"></script><div id="yui3-css-stamp" style="position: absolute !important; visibility: hidden !important" class=""></div><script type="text/javascript" src="novoBotao_arquivos/javascript-static.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+        <header role="banner" class="navbar navbar-fixed-top moodle-has-zindex">
+            <nav role="navigation" class="navbar-inner">
+                <div class="container-fluid">
+                    <a class="brand" href="https://graduacao.cederj.edu.br/ava">
+                        PLATAFORMA CEDERJ</a>
+
+                    <div class="usermenu"><div class="moodle-actionmenu nowrap-items" id="action-menu-0" data-enhance="moodle-core-actionmenu" data-enhanced="1">
+
+        <ul class="menubar" id="action-menu-0-menubar" role="menubar">
+
+            <!--
+
+            --><!--
+
+            --><li role="presentation"><a href="#" class="toggle-display textmenu" id="action-menu-toggle-0" title="" role="menuitem" aria-haspopup="true"><span class="userbutton"><span class="usertext">Arthur Da Silva Egide Aluno(a) - UFF - COM - DCA</span><span class="avatars"><span class="avatar current"><img src="novoBotao_arquivos/f2.png" alt="Imagem de Arthur Da Silva Egide" title="Imagem de Arthur Da Silva Egide" class="userpicture defaultuserpic" role="presentation" width="35" height="35"></span></span></span><b class="caret"></b></a></li>
+
+        </ul>
+
+
+        <ul class="menu  align-tr-br" id="action-menu-0-menu" data-rel="menu-content" aria-labelledby="action-menu-toggle-0" role="menu" data-align="tr-br" aria-hidden="true">
+            <li role="presentation">    <a href="https://graduacao.cederj.edu.br/ava/my/" class="icon menu-action" role="menuitem" data-title="mymoodle,admin" aria-labelledby="actionmenuaction-1"><img class="iconsmall" alt="" src="novoBotao_arquivos/course.svg"><span class="menu-action-text" id="actionmenuaction-1">Minha página inicial</span></a>
+
+
+
+
+</li><li role="presentation">
+<span class="filler">&nbsp;</span>
+
+
+</li><li role="presentation">    <a href="https://graduacao.cederj.edu.br/ava/user/profile.php?id=121824" class="icon menu-action" role="menuitem" data-title="profile,moodle" aria-labelledby="actionmenuaction-2"><img class="iconsmall" alt="" src="novoBotao_arquivos/user.svg"><span class="menu-action-text" id="actionmenuaction-2">Perfil</span></a>
+
+
+
+
+</li><li role="presentation">    <a href="https://graduacao.cederj.edu.br/ava/grade/report/overview/index.php" class="icon menu-action" role="menuitem" data-title="grades,grades" aria-labelledby="actionmenuaction-3"><img class="iconsmall" alt="" src="novoBotao_arquivos/grades_002.svg"><span class="menu-action-text" id="actionmenuaction-3">Notas</span></a>
+
+
+
+
+</li><li role="presentation">    <a href="https://graduacao.cederj.edu.br/ava/message/index.php" class="icon menu-action" role="menuitem" data-title="messages,message" aria-labelledby="actionmenuaction-4"><img class="iconsmall" alt="" src="novoBotao_arquivos/message.svg"><span class="menu-action-text" id="actionmenuaction-4">Mensagens</span></a>
+
+
+
+
+</li><li role="presentation">    <a href="https://graduacao.cederj.edu.br/ava/user/preferences.php" class="icon menu-action" role="menuitem" data-title="preferences,moodle" aria-labelledby="actionmenuaction-5"><img class="iconsmall" alt="" src="novoBotao_arquivos/preferences.svg"><span class="menu-action-text" id="actionmenuaction-5">Preferências</span></a>
+
+
+
+
+</li><li role="presentation">
+<span class="filler">&nbsp;</span>
+
+
+</li><li role="presentation">    <a href="https://graduacao.cederj.edu.br/ava/login/logout.php?sesskey=qK8NpSmXfI" class="icon menu-action" role="menuitem" data-title="logout,moodle" aria-labelledby="actionmenuaction-6"><img class="iconsmall" alt="" src="novoBotao_arquivos/logout.svg"><span class="menu-action-text" id="actionmenuaction-6">Sair</span></a>
+
+
+
+
+</li>
+        </ul>
+</div></div>                    <div class="nav-collapse collapse">
+                                                <ul class="nav pull-right">
+                            <li></li>
+                        </ul>
+                    </div>
+					<div class="popover-region collapsed popover-region-messages" id="nav-message-popover-container" data-userid="121824" data-region="popover-region">
+    <div class="popover-region-toggle nav-link" data-region="popover-region-toggle" aria-role="button" aria-controls="popover-region-container-5c1845f89a5505c1845f8926ec20" aria-haspopup="true" aria-label="Mostrar janela de mensagens sem as novas mensagens" tabindex="0">
+                <img class="smallicon" alt="  " title="  " src="novoBotao_arquivos/message.svg">
+        <div class="count-container hidden" data-region="count-container"></div>
+
+    </div>
+    <div id="popover-region-container-5c1845f89a5505c1845f8926ec20" class="popover-region-container" data-region="popover-region-container" aria-expanded="false" aria-hidden="true" aria-label="Janela de notificação" role="region">
+        <div class="popover-region-header-container">
+            <h3 class="popover-region-header-text" data-region="popover-region-header-text">Mensagens</h3>
+            <div class="popover-region-header-actions" data-region="popover-region-header-actions">        <div class="newmessage-link">
+            <a href="https://graduacao.cederj.edu.br/ava/message/index.php?contactsfirst=1">Nova Mensagem
+            </a>
+        </div>
+        <a class="mark-all-read-button" href="#" role="button" title="Marcar tudo como lido" data-action="mark-all-read">
+            <span class="normal-icon"><img class="smallicon" alt=" Marcar tudo como lido " title=" Marcar tudo como lido " src="novoBotao_arquivos/markasread.svg"></span>
+            <span class="loading-icon"><img class="smallicon" alt=" Carregando " title=" Carregando " src="novoBotao_arquivos/loading.gif"></span>
+        </a>
+        <a href="https://graduacao.cederj.edu.br/ava/message/edit.php?id=121824" title="Preferências de mensagens">
+            <img class="smallicon" alt=" Preferências de mensagens " title=" Preferências de mensagens " src="novoBotao_arquivos/settings.svg">
+        </a>
+</div>
+        </div>
+        <div class="popover-region-content-container" data-region="popover-region-content-container">
+            <div class="popover-region-content" data-region="popover-region-content">
+                        <div class="messages" data-region="messages" role="log" aria-busy="false" aria-atomic="false" aria-relevant="additions"></div>
+        <div class="empty-message" data-region="empty-message" tabindex="0">Sem novas mensagens</div>
+
+            </div>
+            <span class="loading-icon"><img class="smallicon" alt=" Carregando " title=" Carregando " src="novoBotao_arquivos/loading.gif"></span>
+        </div>
+                <a class="see-all-link" href="https://graduacao.cederj.edu.br/ava/message/index.php">
+                    <div class="popover-region-footer-container">
+                        <div class="popover-region-seeall-text">Mostrar todos</div>
+                    </div>
+                </a>
+    </div>
+</div><div class="popover-region collapsed popover-region-notifications" id="nav-notification-popover-container" data-userid="121824" data-region="popover-region">
+    <div class="popover-region-toggle nav-link" data-region="popover-region-toggle" aria-role="button" aria-controls="popover-region-container-5c1845f89ae2a5c1845f8926ec21" aria-haspopup="true" aria-label="Mostrar janela de notificações sem as novas notificações" tabindex="0">
+                <img class="smallicon" alt="  " title="  " src="novoBotao_arquivos/notifications.svg">
+        <div class="count-container hidden" data-region="count-container"></div>
+
+    </div>
+    <div id="popover-region-container-5c1845f89ae2a5c1845f8926ec21" class="popover-region-container" data-region="popover-region-container" aria-expanded="false" aria-hidden="true" aria-label="Janela de notificação" role="region">
+        <div class="popover-region-header-container">
+            <h3 class="popover-region-header-text" data-region="popover-region-header-text">Notificações</h3>
+            <div class="popover-region-header-actions" data-region="popover-region-header-actions">        <a class="mark-all-read-button" href="#" title="Marcar tudo como lido" data-action="mark-all-read" role="button">
+            <span class="normal-icon"><img class="smallicon" alt=" Marcar tudo como lido " title=" Marcar tudo como lido " src="novoBotao_arquivos/markasread.svg"></span>
+            <span class="loading-icon"><img class="smallicon" alt=" Carregando " title=" Carregando " src="novoBotao_arquivos/loading.gif"></span>
+        </a>
+        <a href="https://graduacao.cederj.edu.br/ava/message/notificationpreferences.php?userid=121824" title="Preferências de notificação">
+            <img class="smallicon" alt=" Preferências de notificação " title=" Preferências de notificação " src="novoBotao_arquivos/settings.svg">
+        </a>
+</div>
+        </div>
+        <div class="popover-region-content-container" data-region="popover-region-content-container">
+            <div class="popover-region-content" data-region="popover-region-content">
+                        <div class="all-notifications" data-region="all-notifications" role="log" aria-busy="false" aria-atomic="false" aria-relevant="additions"></div>
+        <div class="empty-message" tabindex="0" data-region="empty-message">Você não tem nenhuma notificação</div>
+
+            </div>
+            <span class="loading-icon"><img class="smallicon" alt=" Carregando " title=" Carregando " src="novoBotao_arquivos/loading.gif"></span>
+        </div>
+                <a class="see-all-link" href="https://graduacao.cederj.edu.br/ava/message/output/popup/notifications.php">
+                    <div class="popover-region-footer-container">
+                        <div class="popover-region-seeall-text">Mostrar todos</div>
+                    </div>
+                </a>
+    </div>
+</div>
+                    <div id="awesomebar" class="cecierj_clean-awesome-bar">
+                        <ul id="awesomeHomeMenu" class="dropdown  dropdown-horizontal"><li><a href="https://graduacao.cederj.edu.br/ava" id="home"><img alt="" src="novoBotao_arquivos/home_icon.png"></a></li><li><span id="awesomeNavMenu"><img alt="" src="novoBotao_arquivos/user_silhouette.png"></span><ul><li><a href="https://graduacao.cederj.edu.br/ava/my/"><img class="smallicon navicon" alt="" src="novoBotao_arquivos/navigationitem.svg">Painel</a></li>
+<li><span tabindex="0" title="PLATAFORMA CEDERJ - GRADUAÇÃO">Páginas do site</span><ul><li><a href="https://graduacao.cederj.edu.br/ava/blog/index.php"><img class="smallicon navicon" alt="" src="novoBotao_arquivos/navigationitem.svg">Blogs do site</a></li>
+<li><a href="https://graduacao.cederj.edu.br/ava/tag/search.php"><img class="smallicon navicon" alt="" src="novoBotao_arquivos/navigationitem.svg">Marcadores</a></li>
+<li><a href="https://graduacao.cederj.edu.br/ava/calendar/view.php?view=month"><img class="smallicon navicon" alt="" src="novoBotao_arquivos/navigationitem.svg">Calendário</a></li></ul></li>
+<li><span tabindex="0">Minhas Disciplinas</span><ul><li class="clickable-with-children"><a title="Álgebra Linear (Sist.Comp.)" href="https://graduacao.cederj.edu.br/ava/course/view.php?id=11">Álgebra Linear (Sist.Comp.)</a></li>
+<li class="clickable-with-children"><a title="Coordenação do Curso de Computação" href="https://graduacao.cederj.edu.br/ava/course/view.php?id=336">Coordenação do Curso de Computação</a></li>
+<li class="clickable-with-children"><a title="Fundamentos de Algoritmos para Computação" href="https://graduacao.cederj.edu.br/ava/course/view.php?id=124">Fundamentos de Algoritmos para Computação</a></li>
+<li class="clickable-with-children"><a title="Fundamentos de Programação" href="https://graduacao.cederj.edu.br/ava/course/view.php?id=126">Fundamentos de Programação</a><ul><li class="clickable-with-children"><a href="https://graduacao.cederj.edu.br/ava/user/index.php?id=126">Participantes</a><ul><li><a href="https://graduacao.cederj.edu.br/ava/blog/index.php?groupid=13638"><img class="smallicon navicon" alt="" src="novoBotao_arquivos/navigationitem.svg">Blogs do curso</a></li>
+<li><a href="https://graduacao.cederj.edu.br/ava/user/view.php?id=121824&amp;course=126"><img class="smallicon navicon" alt="" src="novoBotao_arquivos/navigationitem.svg">Arthur Da Silva Egide</a></li></ul></li>
+<li><a href="https://graduacao.cederj.edu.br/ava/admin/tool/lp/coursecompetencies.php?courseid=126"><img class="smallicon navicon" alt="" src="novoBotao_arquivos/competencies.svg">Competências</a></li>
+<li><a href="https://graduacao.cederj.edu.br/ava/grade/report/index.php?id=126"><img class="smallicon navicon" alt="" src="novoBotao_arquivos/grades.svg">Notas</a></li></ul></li>
+<li class="clickable-with-children"><a title="Introdução à Informática (Sist.Comp.)" href="https://graduacao.cederj.edu.br/ava/course/view.php?id=289">Introdução à Informática (Sist.Comp.)</a></li></ul></li></ul></li></ul><br clear="all">                    </div>
+
+                    <div class="cecierj_clean_tema_serv_info_columns">
+                                            </div>
+
+					
+                    
+
+
+                </div>
+            </nav>
+        </header>
+
+        <div id="page" class="container-fluid">
+            <header id="page-header" class="clearfix"><div class="page-context-header"><div class="page-header-headings"><h1>Fundamentos de Programação</h1></div></div><div class="clearfix" id="page-navbar"><div class="breadcrumb-nav"><span class="accesshide" id="navbar-label">Caminho da página</span><nav aria-labelledby="navbar-label"><ul><li><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" href="https://graduacao.cederj.edu.br/ava/"><span itemprop="title">Página inicial</span></a></span></li><li> <span class="accesshide "><span class="arrow_text">/</span>&nbsp;</span><span class="arrow sep">►</span> <span tabindex="0">Minhas Disciplinas</span></li><li> <span class="accesshide "><span class="arrow_text">/</span>&nbsp;</span><span class="arrow sep">►</span> <span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" title="Fundamentos de Programação" href="https://graduacao.cederj.edu.br/ava/course/view.php?id=126"><span itemprop="title">Fundamentos de Programação</span></a></span></li></ul></nav></div><div class="breadcrumb-button"></div></div><div id="course-header"></div></header>
+            <div id="page-content" class="row-fluid">
+                <div id="region-main-box" class="span9 desktop-first-column">
+                    <div class="row-fluid">
+                        <section id="region-main" class="span8 pull-right">
+                            <span class="notifications" id="user-notifications"></span><div role="main"><span id="maincontent"></span><div class="course-content"><ul class="topics"><li id="section-0" class="section main clearfix" role="region" aria-label="Tópico 0"><div class="left side"><img class="spacer" alt="" src="novoBotao_arquivos/spacer.gif" width="1" height="1"></div><div class="right side"><img class="spacer" alt="" src="novoBotao_arquivos/spacer.gif" width="1" height="1"></div><div class="content"><h3 class="sectionname accesshide"><span><a href="https://graduacao.cederj.edu.br/ava/course/view.php?id=126&amp;section=0">Tópico 0</a></span></h3><div class="summary"><div class="no-overflow"><div class="background-banner" style="background: #f6f6f6; width: 100%; height: 100px; margin-bottom: 0px;">
+<div class="banner-tematico" style="width: 100%; height: 100px; margin-bottom: 0px; float: right; z-index: -1; background: url('https://graduacao.cederj.edu.br/dmd/imagens/banners/banner_aula_padrao.png') no-repeat right top;">
+<div class="titulo-aula" style="color: #24566c; padding-left: 15px; padding-top: 15px; line-height: 18px;">
+<h3 style="font-size: 24px; text-transform: uppercase; float: left; margin-top: 25px; background: rgba(255,255,255,0.45); padding: 5px;">Fundamentos de programação</h3>
+</div>
+</div>
+</div></div></div><ul class="section img-text"></ul></div></li></ul><div class="single-section onetopic"><div class="tabtree"><ul class="tabrow0"><li class="first onerow here selected"><a class="nolink moodle-has-zindex"><span><div style="" class="tab_content tab_position_1 tab_level_0"><span>Apresentação</span></div></span></a><div class="tabrow2 empty">&nbsp;</div></li><li class=""><a title="Aula 1" href="https://graduacao.cederj.edu.br/ava/course/view.php?id=126&amp;section=2"><span><div style="" class="tab_content tab_position_2 tab_level_0"><span>Aula 1</span></div></span></a></li><li class=""><a title="Aula 2" href="https://graduacao.cederj.edu.br/ava/course/view.php?id=126&amp;section=3"><span><div style="" class="tab_content tab_position_3 tab_level_0"><span>Aula 2</span></div></span></a></li><li class=""><a title="Aula 3" href="https://graduacao.cederj.edu.br/ava/course/view.php?id=126&amp;section=4"><span><div style="" class="tab_content tab_position_4 tab_level_0"><span>Aula 3</span></div></span></a></li><li class=""><a title="Aula 4" href="https://graduacao.cederj.edu.br/ava/course/view.php?id=126&amp;section=5"><span><div style="" class="tab_content tab_position_5 tab_level_0"><span>Aula 4</span></div></span></a></li><li class=""><a title="Aula 5" href="https://graduacao.cederj.edu.br/ava/course/view.php?id=126&amp;section=6"><span><div style="" class="tab_content tab_position_6 tab_level_0"><span>Aula 5</span></div></span></a></li><li class=""><a title="Aula 6" href="https://graduacao.cederj.edu.br/ava/course/view.php?id=126&amp;section=7"><span><div style="" class="tab_content tab_position_7 tab_level_0"><span>Aula 6</span></div></span></a></li><li class=""><a title="AD 1" href="https://graduacao.cederj.edu.br/ava/course/view.php?id=126&amp;section=8"><span><div style="" class="tab_content tab_position_8 tab_level_0"><span>AD 1</span></div></span></a></li><li class=""><a title="Aula 7" href="https://graduacao.cederj.edu.br/ava/course/view.php?id=126&amp;section=9"><span><div style="" class="tab_content tab_position_9 tab_level_0"><span>Aula 7</span></div></span></a></li><li class=""><a title="Aula 8" href="https://graduacao.cederj.edu.br/ava/course/view.php?id=126&amp;section=10"><span><div style="" class="tab_content tab_position_10 tab_level_0"><span>Aula 8</span></div></span></a></li><li class=""><a title="Aula 9" href="https://graduacao.cederj.edu.br/ava/course/view.php?id=126&amp;section=11"><span><div style="" class="tab_content tab_position_11 tab_level_0"><span>Aula 9</span></div></span></a></li><li class=""><a title="Aula 10" href="https://graduacao.cederj.edu.br/ava/course/view.php?id=126&amp;section=12"><span><div style="" class="tab_content tab_position_12 tab_level_0"><span>Aula 10</span></div></span></a></li><li class=""><a title="Aula 11" href="https://graduacao.cederj.edu.br/ava/course/view.php?id=126&amp;section=13"><span><div style="" class="tab_content tab_position_13 tab_level_0"><span>Aula 11</span></div></span></a></li><li class=""><a title="Aula 12" href="https://graduacao.cederj.edu.br/ava/course/view.php?id=126&amp;section=14"><span><div style="" class="tab_content tab_position_14 tab_level_0"><span>Aula 12</span></div></span></a></li><li class="last"><a title="AD 2" href="https://graduacao.cederj.edu.br/ava/course/view.php?id=126&amp;section=15"><span><div style="" class="tab_content tab_position_15 tab_level_0"><span>AD 2</span></div></span></a></li></ul></div><div class="clearer"> </div><ul class="topics"><li id="section-1" class="section main clearfix" role="region" aria-label="Apresentação"><div class="left side"><img class="spacer" alt="" src="novoBotao_arquivos/spacer.gif" width="1" height="1"></div><div class="right side"><img class="spacer" alt="" src="novoBotao_arquivos/spacer.gif" width="1" height="1"></div><div class="content"><h3 class="sectionname accesshide"><span><a href="https://graduacao.cederj.edu.br/ava/course/view.php?id=126&amp;section=1">Apresentação</a></span></h3><div class="summary"></div><ul class="section img-text"><li class="activity label modtype_label " id="module-7045"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><h1 style="border-bottom: 3px solid #ccc; width: 100%; font-weight: bold; font-size: 25px;">Apresentação</h1></div></div></div></div></div></div></li><li class="activity label modtype_label " id="module-212041"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><h4>Introdução</h4>
+<p>A disciplina Fundamentos de Programação é ministrada no segundo 
+período letivo do curso e tem como pré-requisito a disciplina Projeto e 
+Desenvolvimento de Algoritmos cuja conclusão torna o aluno “capaz de 
+desenvolver o raciocínio lógico e sua aplicação na concepção e resolução
+ de problemas através do emprego do computador”.</p>
+<p>A disciplina Fundamentos de Programação tem como principal objetivo o
+ ensino de uma linguagem de programação. Ao unir as habilidades de 
+desenvolvimento de algoritmos obtidas na disciplina Projeto e 
+Desenvolvimento de Algoritmos com a habilidade de implementar esses 
+algoritmos utilizando a linguagem de programação vista em Fundamentos de
+ Programação, o aluno deverá ser capaz de resolver problemas através do 
+desenvolvimento de programas em uma linguagem específica, no caso, 
+Python – uma linguagem de programação atual, importante e amplamente 
+utilizada.</p>
+<p>Na elaboração das aulas gravadas, buscou-se, principalmente, 
+apresentar uma metodologia de programação, baseada em decomposição do 
+programa e subprogramação, a ser seguida pelos alunos. A utilização 
+sistemática desta metodologia ajudará o aluno não somente nesta 
+disciplina, central em um curso superior em computação, mas em suas 
+subsequentes aplicações.</p></div></div></div></div></div></div></li><li class="activity label modtype_label " id="module-135130"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><h4><strong>Acesso Rápido<br></strong></h4>
+<p>Para começar, acesse o Cronograma e o Guia da Disciplina clicando nos
+ botões a seguir. Em caso de dúvidas, entre em contato com o tutor na 
+Sala de Tutoria.</p>
+<p><img src="novoBotao_arquivos/botoesfp.png" usemap="#Map" style="display: block; margin-left: auto; margin-right: auto;" width="697" height="84" border="0"></p>
+<p><map name="Map" id="Map"> 
+<area shape="rect" coords="12,14,193,68" href="https://graduacao.cederj.edu.br/ava/mod/resource/view.php?id=29719" target="_blank" alt="Cronograma">
+ 
+<area shape="rect" coords="254,17,435,68" href="https://graduacao.cederj.edu.br/ava/mod/page/view.php?id=7060" target="_blank" alt="Guia da disciplina">
+ 
+<area shape="rect" coords="503,17,685,68" href="https://graduacao.cederj.edu.br/ava/local/salatutoria/index.php?course_id=126&amp;amp" target="_blank" alt="Sala de tutoria">
+ </map></p></div></div></div></div></div></div></li><li class="activity label modtype_label " id="module-212194"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><h4>Equipe</h4>
+<h5>Coordenadores de Disciplina</h5>
+<p>Dante Corbucci Filho<br>Leandro Augusto Frata Fernandes</p>
+<h5>Tutor à Distância</h5>
+<p><span>Leonardo Pio Vasconcelos</span></p></div></div></div></div></div></div></li><li class="activity label modtype_label " id="module-7048"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><h4>Organização das Aulas</h4>
+<p>A disciplina está organizada em 12 aulas:</p>
+<ul>
+<li>Aula 1: Introdução, Ambiente de Desenvolvimento e Correção de Exercícios</li>
+<li>Aula 2: Variáveis, Tipos e Comando Básicos</li>
+<li>Aula 3: Estruturas de Controle: Sequência, Seleções e Repetições</li>
+<li>Aula 4: Sub-Programação: Funções, Passagem de Parâmetros e Recursividade</li>
+<li>Aula 5: Estruturas de Dados: Vetor, Matriz, String e Tupla</li>
+<li>Aula 6: Algoritmos de Busca: Simples, Com Sentinela e Binária</li>
+<li>Aula 7: Moda e Algoritmos de Ordenação</li>
+<li>Aula 8: Estruturas de Dados: Lista e Lista de Listas</li>
+<li>Aula 9: Persistência de Dados: Arquivo Texto</li>
+<li>Aula 10: Estrutura de Dados: Conjunto</li>
+<li>Aula 11: Estrutura de Dados: Dicionário</li>
+<li>Aula 12: Persistência de Dados: Arquivos Binários</li>
+</ul>
+<p><br>Para acessá-las, clique na aula desejada, no menu superior.</p>
+<p>No documento “Cronograma de Fundamentos de Programação” está prevista
+ a distribuição dessas aulas ao longo do período letivo. O aluno deverá 
+assistir a uma aula por semana. Recomenda-se fortemente que o aluno siga
+ o planejamento sugerido para que tenha um bom aproveitamento.</p>
+<p>Após cada aula, o aluno deverá praticar em laboratório os conceitos 
+apresentados. Para tanto, foram selecionados alguns exercícios do <a href="http://urionlinejudge.com.br/" target="_blank">URI Online Judge</a> e eventuais exercícios de enunciado convencional que devem ser desenvolvidos para fixação dos conceitos.</p>
+<p>Antes de cada Avaliação Presencial (AP), há planejada uma semana de 
+preparação, na qual o aluno deverá rever o conteúdo apresentado.</p></div></div></div></div></div></div></li><li class="activity label modtype_label " id="module-212044"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><h4>Livros Texto</h4>
+<p>Recomenda-se fortemente que o aluno complemente os conteúdos vistos 
+nas aulas com as explicações presentes nos seguintes livros texto:</p>
+<ul>
+<li>Menezes, N. N. C.<br><a href="https://python.nilo.pro.br/" target="_blank">Introdução à Programação com Python</a><br>Editora Novatec (2014), Segunda Edição<br><br></li>
+<li>Summerfield, M.<br><a href="http://www.altabooks.com.br/programacao-em-python-3.html" target="_blank">Programação em Python 3: Uma Introdução Completa à Linguagem Python</a><br>Editora Alta Books (2013)<br><br></li>
+<li>Barry, P. &amp; Griffiths, D.<br><a href="http://www.altabooks.com.br/use-a-cabeca-programacao.html" target="_blank">Use a Cabeça! Programação</a><br>Editora Alta Books (2010)<br><br></li>
+<li>Barry, P.<br><a href="http://www.altabooks.com.br/use-a-cabeca-python.html" target="_blank">Use a Cabeça! Python</a><br>Editora Alta Books (2012)</li>
+</ul></div></div></div></div></div></div></li><li class="activity label modtype_label " id="module-212048"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><h4>Tutorias</h4>
+<p>Não se aprende a programar fluentemente em uma linguagem de 
+programação sem uma intensa disciplina e um esforço contínuo no sentido 
+de exercitar e explorar cada conceito e comando da linguagem. 
+Consideramos que, para que os alunos obtenham um bom desempenho nesta 
+disciplina, é imprescindível que frequentem os laboratórios dos polos 
+para desenvolver seus programas, onde poderão contar com a ajuda de 
+tutores presenciais. Por e-mail, por telefone, ou pela Sala de Tutoria 
+na Plataforma os alunos poderão ainda tirar suas dúvidas com o tutor à 
+distância.</p></div></div></div></div></div></div></li><li class="activity forum modtype_forum " id="module-259881"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><div class=" dimmed_text"><img src="novoBotao_arquivos/icon_004.svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">:: Fórum de apoio a Tutoria Presencial ::</span></div></div><div class="availabilityinfo">Disponível se: Você faz parte de <strong>Rio Bonito</strong></div></div></div></div></li></ul></div></li></ul><div class="section-navigation mdl-bottom"><span class="mdl-left"></span><span class="mdl-right"><a href="https://graduacao.cederj.edu.br/ava/course/view.php?id=126&amp;section=2">Aula 1<span class="rarrow">►</span></a></span></div></div></div></div>                        </section>
+                        <aside id="block-region-side-pre" class="span4 desktop-first-column" data-blockregion="side-pre" data-droptarget="1">
+                            <a class="skip skip-block" id="fsb-1" href="#sb-1">Pular Navegação</a><div id="inst4" class="block_navigation  block" role="navigation" data-block="navigation" data-instanceid="4" aria-labelledby="instance-4-header"><div class="header"><div class="title" id="yui_3_17_2_1_1545094648891_67"><div class="block_action"><img class="block-hider-hide" alt="Esconder o bloco Navegação" src="novoBotao_arquivos/switch_minus.svg" tabindex="0" title="Esconder o bloco Navegação"><img class="block-hider-show" alt="Mostrar o bloco Navegação" src="novoBotao_arquivos/switch_plus.svg" tabindex="0" title="Mostrar o bloco Navegação"></div><h2 id="instance-4-header">Navegação</h2></div></div><div class="content"><ul class="block_tree list" role="tree" data-ajax-loader="block_navigation/nav_loader"><li class="type_unknown depth_1 contains_branch" aria-labelledby="label_1_1" tabindex="-1"><p class="tree_item branch navigation_node" role="treeitem" aria-expanded="true" aria-owns="random5c1845f8926ec1_group" data-collapsible="false" tabindex="0" aria-selected="true"><a tabindex="-1" id="label_1_1" href="https://graduacao.cederj.edu.br/ava/">Página inicial</a></p><ul id="random5c1845f8926ec1_group" role="group" tabindex="-1"><li class="type_setting depth_2 item_with_icon" aria-labelledby="label_2_2" tabindex="-1"><p class="tree_item hasicon" role="treeitem" tabindex="-1" aria-selected="false"><a tabindex="-1" id="label_2_2" href="https://graduacao.cederj.edu.br/ava/my/"><img class="smallicon navicon" alt="" src="novoBotao_arquivos/navigationitem.svg" tabindex="-1"><span class="item-content-wrap" tabindex="-1">Painel</span></a></p></li><li class="type_system depth_2 contains_branch" aria-labelledby="label_2_4" tabindex="-1"><p class="tree_item branch canexpand" role="treeitem" aria-expanded="true" aria-owns="random5c1845f8926ec3_group" tabindex="-1" aria-selected="false"><span tabindex="-1" id="label_2_4">Minhas Disciplinas</span></p><ul id="random5c1845f8926ec3_group" role="group" tabindex="-1"><li class="type_course depth_3 item_with_icon" aria-labelledby="label_3_5" tabindex="-1"><p class="tree_item hasicon" role="treeitem" id="expandable_branch_20_11" tabindex="-1" aria-selected="false"><a tabindex="-1" id="label_3_5" title="Álgebra Linear (Sist.Comp.)" href="https://graduacao.cederj.edu.br/ava/course/view.php?id=11"><img class="smallicon navicon" alt="" src="novoBotao_arquivos/navigationitem.svg" tabindex="-1"><span class="item-content-wrap" tabindex="-1">Álgebra Linear (Sist.Comp.)</span></a></p></li><li class="type_course depth_3 item_with_icon" aria-labelledby="label_3_6" tabindex="-1"><p class="tree_item hasicon" role="treeitem" id="expandable_branch_20_336" tabindex="-1" aria-selected="false"><a tabindex="-1" id="label_3_6" title="Coordenação do Curso de Computação" href="https://graduacao.cederj.edu.br/ava/course/view.php?id=336"><img class="smallicon navicon" alt="" src="novoBotao_arquivos/navigationitem.svg" tabindex="-1"><span class="item-content-wrap" tabindex="-1">Coordenação do Curso de Computação</span></a></p></li><li class="type_course depth_3 item_with_icon" aria-labelledby="label_3_7" tabindex="-1"><p class="tree_item hasicon" role="treeitem" id="expandable_branch_20_124" tabindex="-1" aria-selected="false"><a tabindex="-1" id="label_3_7" title="Fundamentos de Algoritmos para Computação" href="https://graduacao.cederj.edu.br/ava/course/view.php?id=124"><img class="smallicon navicon" alt="" src="novoBotao_arquivos/navigationitem.svg" tabindex="-1"><span class="item-content-wrap" tabindex="-1">Fundamentos de Algoritmos para Computação</span></a></p></li><li class="type_course depth_3 contains_branch current_branch" aria-labelledby="label_3_8" tabindex="-1"><p class="tree_item branch active_tree_node" role="treeitem" aria-expanded="true" aria-owns="random5c1845f8926ec4_group" tabindex="-1" aria-selected="false"><a tabindex="-1" id="label_3_8" title="Fundamentos de Programação" href="https://graduacao.cederj.edu.br/ava/course/view.php?id=126">Fundamentos de Programação</a></p><ul id="random5c1845f8926ec4_group" role="group" tabindex="-1"><li class="type_unknown depth_4 contains_branch" aria-labelledby="label_4_9" tabindex="-1"><p class="tree_item branch" role="treeitem" aria-expanded="false" aria-owns="random5c1845f8926ec5_group" tabindex="-1" aria-selected="false"><a tabindex="-1" id="label_4_9" href="https://graduacao.cederj.edu.br/ava/user/index.php?id=126">Participantes</a></p><ul id="random5c1845f8926ec5_group" role="group" aria-hidden="true" tabindex="-1"><li class="type_setting depth_5 item_with_icon" aria-labelledby="label_5_10" tabindex="-1"><p class="tree_item hasicon" role="treeitem" tabindex="-1" aria-selected="false"><a tabindex="-1" id="label_5_10" href="https://graduacao.cederj.edu.br/ava/blog/index.php?groupid=13638"><img class="smallicon navicon" alt="" src="novoBotao_arquivos/navigationitem.svg" tabindex="-1"><span class="item-content-wrap" tabindex="-1">Blogs do curso</span></a></p></li><li class="type_user depth_5 item_with_icon" aria-labelledby="label_5_11" tabindex="-1"><p class="tree_item hasicon" role="treeitem" tabindex="-1" aria-selected="false"><a tabindex="-1" id="label_5_11" href="https://graduacao.cederj.edu.br/ava/user/view.php?id=121824&amp;course=126"><img class="smallicon navicon" alt="" src="novoBotao_arquivos/navigationitem.svg" tabindex="-1"><span class="item-content-wrap" tabindex="-1">Arthur Da Silva Egide</span></a></p></li></ul></li><li class="type_setting depth_4 item_with_icon" aria-labelledby="label_4_12" tabindex="-1"><p class="tree_item hasicon" role="treeitem" tabindex="-1" aria-selected="false"><a tabindex="-1" id="label_4_12" href="https://graduacao.cederj.edu.br/ava/admin/tool/lp/coursecompetencies.php?courseid=126"><img class="smallicon navicon" alt="" src="novoBotao_arquivos/competencies.svg" tabindex="-1"><span class="item-content-wrap" tabindex="-1">Competências</span></a></p></li><li class="type_setting depth_4 item_with_icon" aria-labelledby="label_4_13" tabindex="-1"><p class="tree_item hasicon" role="treeitem" tabindex="-1" aria-selected="false"><a tabindex="-1" id="label_4_13" href="https://graduacao.cederj.edu.br/ava/grade/report/index.php?id=126"><img class="smallicon navicon" alt="" src="novoBotao_arquivos/grades.svg" tabindex="-1"><span class="item-content-wrap" tabindex="-1">Notas</span></a></p></li></ul></li><li class="type_course depth_3 item_with_icon" aria-labelledby="label_3_29" tabindex="-1"><p class="tree_item hasicon" role="treeitem" id="expandable_branch_20_289" tabindex="-1" aria-selected="false"><a tabindex="-1" id="label_3_29" title="Introdução à Informática (Sist.Comp.)" href="https://graduacao.cederj.edu.br/ava/course/view.php?id=289"><img class="smallicon navicon" alt="" src="novoBotao_arquivos/navigationitem.svg" tabindex="-1"><span class="item-content-wrap" tabindex="-1">Introdução à Informática (Sist.Comp.)</span></a></p></li></ul></li><li class="type_setting depth_2 item_with_icon" aria-labelledby="label_2_2" tabindex="-1">
+    <p class="tree_item hasicon" role="treeitem" tabindex="-1" aria-selected="false">
+        <a tabindex="-1" id="label_2_2" href="https://google.com/">
+            <img class="smallicon navicon" alt="" src="novoBotao_arquivos/navigationitem.svg" tabindex="-1">
+                <span class="item-content-wrap" tabindex="-1">ReD</span>
+        </a>
+    </p>
+</li></ul></li></ul></div></div><span class="skip-block-to" id="sb-1"></span><a class="skip skip-block" id="fsb-3" href="#sb-3">Pular Acessibilidade</a><div id="inst291216" class="block_accessibility  block hidden" role="complementary" data-block="accessibility" data-instanceid="291216" aria-labelledby="instance-291216-header"><div class="header"><div class="title" id="yui_3_17_2_1_1545094648891_85"><div class="block_action"><img class="block-hider-hide" alt="Esconder o bloco Acessibilidade" src="novoBotao_arquivos/switch_minus.svg" tabindex="0" title="Esconder o bloco Acessibilidade"><img class="block-hider-show" alt="Mostrar o bloco Acessibilidade" src="novoBotao_arquivos/switch_plus.svg" tabindex="0" title="Mostrar o bloco Acessibilidade"></div><h2 id="instance-291216-header">Acessibilidade</h2></div></div><div class="content"><div id="accessibility_controls" class="content"><ul id="block_accessibility_textresize" class="button_row"><li class="access-button"><a title="Diminuir o tamanho do texto" id="block_accessibility_dec">A-</a></li><li class="access-button"><a id="block_accessibility_reset" title="Redefinir tamanho do texto (limpa definição salva)" class="disabled">A</a></li><li class="access-button"><a title="Aumentar o tamanho do texto" id="block_accessibility_inc">A+</a></li><li class="access-button"><a title="Salvar definição" id="block_accessibility_save">&nbsp;</a></li></ul><ul id="block_accessibility_changecolour"><li class="access-button"><a id="block_accessibility_colour1" class="disabled">R</a></li><li class="access-button"><a id="block_accessibility_colour2">A</a></li><li class="access-button"><a id="block_accessibility_colour3">A</a></li><li class="access-button"><a id="block_accessibility_colour4">A</a></li></ul><div id="block_accessibility_message" class="clearfix"></div><input type="button" value="Launch ATbar" id="block_accessibility_launchtoolbar" class="atbar_control access-button"><span class="atbar-always"><input type="checkbox" value="1" id="atbar_auto" name="atbar_auto" class="atbar_control"><label for="atbar_auto" class="atbar_control">(sempre?)</label></span></div><span id="loader-icon"></span></div></div><span class="skip-block-to" id="sb-3"></span><a class="skip skip-block" id="fsb-4" href="#sb-4">Pular Ponto de Encontro</a><div id="inst326750" class="block_cecierj_hangouts  block hidden" role="complementary" data-block="cecierj_hangouts" data-instanceid="326750" aria-labelledby="instance-326750-header"><div class="header"><div class="title" id="yui_3_17_2_1_1545094648891_103"><div class="block_action"><img class="block-hider-hide" alt="Esconder o bloco Ponto de Encontro" src="novoBotao_arquivos/switch_minus.svg" tabindex="0" title="Esconder o bloco Ponto de Encontro"><img class="block-hider-show" alt="Mostrar o bloco Ponto de Encontro" src="novoBotao_arquivos/switch_plus.svg" tabindex="0" title="Mostrar o bloco Ponto de Encontro"></div><h2 id="instance-326750-header">Ponto de Encontro</h2></div></div><div class="content">
+			<script src="novoBotao_arquivos/platform.js" gapi_processed="true"></script>
+			<script src="novoBotao_arquivos/rpc.js"></script>
+			<script src="novoBotao_arquivos/hangout.js"></script>
+
+			<script>
+				function init() {
+				}
+						
+				gapi.hangout.onParticipantsAdded
+				  .add(function(participantsAddedEvent) {
+				   console.log('participantsAddedEvent');
+				  });
+
+				gapi.hangout.av.onVolumesChanged.add(function(volChangeEvent) {
+				   console.log('volumes');
+				});
+
+				gapi.hangout.av.onHasCamera.add(function(hasCamera) {
+				 console.log(hasCamera);
+				});
+
+				gapi.hangout.av.onHasMicrophone.add(function(hasMicrophone) {
+				 console.log(hasMicrophone);
+				});
+								
+				gapi.hangout.onApiReady.add(function(eventObj) {
+					console.log('ready');
+				});
+			</script>
+		<p>Hangouts para a|Equipe da Disciplina</p><a target="_blank" href="https://graduacao.cederj.edu.br/ava/blocks/cecierj_hangouts/room/controle/controle.hangouts.php?op=1&amp;courseid=126&amp;sala=Hangouts%20para%20a|Equipe%20da%20Disciplina"><img src="novoBotao_arquivos/hang.png"></a><br><br><p>Hangouts para|Sua Turma</p><a target="_blank" href="https://graduacao.cederj.edu.br/ava/blocks/cecierj_hangouts/room/controle/controle.hangouts.php?op=1&amp;courseid=126&amp;sala=Hangouts%20para|Sua%20Turma"><img src="novoBotao_arquivos/hang.png"></a></div></div><span class="skip-block-to" id="sb-4"></span><a class="skip skip-block" id="fsb-5" href="#sb-5">Pular Avaliações, Gabaritos e Revisão</a><div id="inst5466" class="block_html  block hidden" role="complementary" data-block="html" data-instanceid="5466" aria-labelledby="instance-5466-header"><div class="header"><div class="title" id="yui_3_17_2_1_1545094648891_121"><div class="block_action"><img class="block-hider-hide" alt="Esconder o bloco Avaliações, Gabaritos e Revisão" src="novoBotao_arquivos/switch_minus.svg" tabindex="0" title="Esconder o bloco Avaliações, Gabaritos e Revisão"><img class="block-hider-show" alt="Mostrar o bloco Avaliações, Gabaritos e Revisão" src="novoBotao_arquivos/switch_plus.svg" tabindex="0" title="Mostrar o bloco Avaliações, Gabaritos e Revisão"></div><h2 id="instance-5466-header">Avaliações, Gabaritos e Revisão</h2></div></div><div class="content"><div class="no-overflow"><p><a href="https://graduacao.cederj.edu.br/ava/mod/folder/view.php?id=7064">Avaliações (ADs)</a></p>
+<p><a href="https://graduacao.cederj.edu.br/ava/mod/folder/view.php?id=7064">Gabaritos (ADs e APs)</a><span style="color: #0000ff;"></span></p>
+<p><a href="https://graduacao.cederj.edu.br/ava/mod/assign/view.php?id=70239">Revisão de AD 1</a></p>
+<p><a href="https://graduacao.cederj.edu.br/ava/mod/assign/view.php?id=161201">Revisão de AD 2</a></p>
+<p><a href="https://graduacao.cederj.edu.br/ava/mod/assign/view.php?id=161200">Revisão de AP 1<span style="color: #0000ff;"><br> </span></a></p>
+<p><a href="https://graduacao.cederj.edu.br/ava/mod/assign/view.php?id=83720">Revisão de AP 2</a></p>
+<p><a href="https://graduacao.cederj.edu.br/ava/mod/assign/view.php?id=83721">Revisão de AP 3<span style="color: #0000ff;"><br> </span></a></p></div></div></div><span class="skip-block-to" id="sb-5"></span><a class="skip skip-block" id="fsb-6" href="#sb-6">Pular Participantes</a><div id="inst5467" class="block_participants  block list_block hidden" role="complementary" data-block="participants" data-instanceid="5467" aria-labelledby="instance-5467-header"><div class="header"><div class="title" id="yui_3_17_2_1_1545094648891_139"><div class="block_action"><img class="block-hider-hide" alt="Esconder o bloco Participantes" src="novoBotao_arquivos/switch_minus.svg" tabindex="0" title="Esconder o bloco Participantes"><img class="block-hider-show" alt="Mostrar o bloco Participantes" src="novoBotao_arquivos/switch_plus.svg" tabindex="0" title="Mostrar o bloco Participantes"></div><h2 id="instance-5467-header">Participantes</h2></div></div><div class="content"><ul class="unlist"><li class="r0"><div class="column c1"><a title="Lista de todas as pessoas" href="https://graduacao.cederj.edu.br/ava/user/index.php?contextid=653"><img src="novoBotao_arquivos/users.svg" class="icon" alt="">Participantes</a></div></li></ul></div></div><span class="skip-block-to" id="sb-6"></span><a class="skip skip-block" id="fsb-7" href="#sb-7">Pular Avisos</a><div id="inst5468" class="block_news_items  block hidden" role="complementary" data-block="news_items" data-instanceid="5468" aria-labelledby="instance-5468-header"><div class="header"><div class="title" id="yui_3_17_2_1_1545094648891_157"><div class="block_action"><img class="block-hider-hide" alt="Esconder o bloco Avisos" src="novoBotao_arquivos/switch_minus.svg" tabindex="0" title="Esconder o bloco Avisos"><img class="block-hider-show" alt="Mostrar o bloco Avisos" src="novoBotao_arquivos/switch_plus.svg" tabindex="0" title="Mostrar o bloco Avisos"></div><h2 id="instance-5468-header">Avisos</h2></div></div><div class="content">
+<ul class="unlist">
+<li class="post"><div class="head clearfix"><div class="date">12 Nov, 02:33</div><div class="name">Leonardo Pio Vasconcelos</div></div><div class="info"><a href="https://graduacao.cederj.edu.br/ava/mod/forum/discuss.php?d=435424">:: Video tutoria  para tirar dúvidas do gabarito da AD2 ::</a></div></li>
+<li class="post"><div class="head clearfix"><div class="date">4 Set, 14:19</div><div class="name">Leonardo Pio Vasconcelos</div></div><div class="info"><a href="https://graduacao.cederj.edu.br/ava/mod/forum/discuss.php?d=423975">:: Horário de Tutoria à Distância ::</a></div></li>
+<li class="post"><div class="head clearfix"><div class="date">22 Ago, 19:56</div><div class="name">Leonardo Pio Vasconcelos</div></div><div class="info"><a href="https://graduacao.cederj.edu.br/ava/mod/forum/discuss.php?d=420696">:: É PROIBIDO postar o código de uma resposta da AD na sala de tutoria ::</a></div></li>
+</ul>
+<div class="footer"><a href="https://graduacao.cederj.edu.br/ava/mod/forum/view.php?f=3563">Tópicos antigos</a> ...</div></div></div><span class="skip-block-to" id="sb-7"></span><a class="skip skip-block" id="fsb-8" href="#sb-8">Pular Materiais</a><div id="inst5469" class="block_html  block hidden" role="complementary" data-block="html" data-instanceid="5469" aria-labelledby="instance-5469-header"><div class="header"><div class="title" id="yui_3_17_2_1_1545094648891_175"><div class="block_action"><img class="block-hider-hide" alt="Esconder o bloco Materiais" src="novoBotao_arquivos/switch_minus.svg" tabindex="0" title="Esconder o bloco Materiais"><img class="block-hider-show" alt="Mostrar o bloco Materiais" src="novoBotao_arquivos/switch_plus.svg" tabindex="0" title="Mostrar o bloco Materiais"></div><h2 id="instance-5469-header">Materiais</h2></div></div><div class="content"><div class="no-overflow"><p><a href="https://graduacao.cederj.edu.br/ava/mod/folder/view.php?id=7062">Cadernos Didáticos</a></p>
+<p><a href="https://graduacao.cederj.edu.br/ava/mod/folder/view.php?id=7063">Exercícios e Complementos</a></p>
+<p><a href="https://graduacao.cederj.edu.br/ava/mod/page/view.php?id=7060">Guia da disciplina</a></p>
+<p><a target="_blank" href="https://graduacao.cederj.edu.br/ava/mod/resource/view.php?id=29719">Cronograma</a></p></div></div></div><span class="skip-block-to" id="sb-8"></span><a class="skip skip-block" id="fsb-9" href="#sb-9">Pular Tutoria</a><div id="inst5472" class="block_tutoria  block hidden" role="complementary" data-block="tutoria" data-instanceid="5472" aria-labelledby="instance-5472-header"><div class="header"><div class="title" id="yui_3_17_2_1_1545094648891_193"><div class="block_action"><img class="block-hider-hide" alt="Esconder o bloco Tutoria" src="novoBotao_arquivos/switch_minus.svg" tabindex="0" title="Esconder o bloco Tutoria"><img class="block-hider-show" alt="Mostrar o bloco Tutoria" src="novoBotao_arquivos/switch_plus.svg" tabindex="0" title="Mostrar o bloco Tutoria"></div><h2 id="instance-5472-header">Tutoria</h2></div></div><div class="content"><div>
+                <p><a href="https://graduacao.cederj.edu.br/ava/local/cecierj_tutoria/index.php?op=1&amp;menu=1&amp;course_id=126&amp;user_id=121824">
+                    <img class="smallicon navicon" src="novoBotao_arquivos/navigationitem_002.svg" style="margin-right: 8px;">Sala de Tutoria
+                </a></p>
+            
+             <p><a href="https://graduacao.cederj.edu.br/ava/local/cecierj_tutoria/index.php?op=11&amp;menu=6&amp;course_id=126&amp;user_id=121824">
+                    <img class="smallicon navicon" src="novoBotao_arquivos/navigationitem_002.svg" style="margin-right: 8px;">Videotutoria
+             </a></p>
+            </div></div></div><span class="skip-block-to" id="sb-9"></span><a class="skip skip-block" id="fsb-10" href="#sb-10">Pular Correio eletrônico</a><div id="inst5473" class="block_quickmail  block list_block hidden" role="complementary" data-block="quickmail" data-instanceid="5473" aria-labelledby="instance-5473-header"><div class="header"><div class="title" id="yui_3_17_2_1_1545094648891_211"><div class="block_action"><img class="block-hider-hide" alt="Esconder o bloco Correio eletrônico" src="novoBotao_arquivos/switch_minus.svg" tabindex="0" title="Esconder o bloco Correio eletrônico"><img class="block-hider-show" alt="Mostrar o bloco Correio eletrônico" src="novoBotao_arquivos/switch_plus.svg" tabindex="0" title="Mostrar o bloco Correio eletrônico"></div><h2 id="instance-5473-header">Correio eletrônico</h2></div></div><div class="content"><ul class="unlist"><li class="r0"><div class="column c1"><a href="https://graduacao.cederj.edu.br/ava/blocks/quickmail/email.php?courseid=126"><img class="icon" alt="Escrever e-mail" title="Escrever e-mail" src="novoBotao_arquivos/email.svg">Escrever e-mail</a></div></li>
+<li class="r1"><div class="column c1"><a href="https://graduacao.cederj.edu.br/ava/blocks/quickmail/signature.php?courseid=126"><img class="icon" alt="Assinatura" title="Assinatura" src="novoBotao_arquivos/edit.svg">Assinatura</a></div></li>
+<li class="r0"><div class="column c1"><a href="https://graduacao.cederj.edu.br/ava/blocks/quickmail/emaillog.php?courseid=126&amp;type=drafts"><img class="icon" alt="Rascunhos" title="Rascunhos" src="novoBotao_arquivos/settings.svg">Rascunhos</a></div></li>
+<li class="r1"><div class="column c1"><a href="https://graduacao.cederj.edu.br/ava/blocks/quickmail/emaillog.php?courseid=126"><img class="icon" alt="Histórico" title="Histórico" src="novoBotao_arquivos/settings.svg">Histórico</a></div></li></ul></div></div><span class="skip-block-to" id="sb-10"></span><a class="skip skip-block" id="fsb-11" href="#sb-11">Pular Ferramentas</a><div id="inst5474" class="block_activity_modules  block list_block hidden" role="navigation" data-block="activity_modules" data-instanceid="5474" aria-labelledby="instance-5474-header"><div class="header"><div class="title" id="yui_3_17_2_1_1545094648891_229"><div class="block_action"><img class="block-hider-hide" alt="Esconder o bloco Ferramentas" src="novoBotao_arquivos/switch_minus.svg" tabindex="0" title="Esconder o bloco Ferramentas"><img class="block-hider-show" alt="Mostrar o bloco Ferramentas" src="novoBotao_arquivos/switch_plus.svg" tabindex="0" title="Mostrar o bloco Ferramentas"></div><h2 id="instance-5474-header">Ferramentas</h2></div></div><div class="content"><ul class="unlist"><li class="r0"><div class="column c1"><a href="https://graduacao.cederj.edu.br/ava/mod/assign/index.php?id=126"><img src="novoBotao_arquivos/icon_003.svg" class="icon" alt="">Atividades</a></div></li>
+<li class="r1"><div class="column c1"><a href="https://graduacao.cederj.edu.br/ava/mod/chat/index.php?id=126"><img src="novoBotao_arquivos/icon.svg" class="icon" alt="">Chats</a></div></li>
+<li class="r0"><div class="column c1"><a href="https://graduacao.cederj.edu.br/ava/mod/forum/index.php?id=126"><img src="novoBotao_arquivos/icon_004.svg" class="icon" alt="">Fóruns</a></div></li>
+<li class="r1"><div class="column c1"><a href="https://graduacao.cederj.edu.br/ava/course/resources.php?id=126"><img class="icon" alt="" src="novoBotao_arquivos/icon_002.svg">Recursos</a></div></li></ul></div></div><span class="skip-block-to" id="sb-11"></span><a class="skip skip-block" id="fsb-12" href="#sb-12">Pular Agenda</a><div id="inst5471" class="block_calendar_upcoming  block hidden" role="complementary" data-block="calendar_upcoming" data-instanceid="5471" aria-labelledby="instance-5471-header"><div class="header"><div class="title" id="yui_3_17_2_1_1545094648891_247"><div class="block_action"><img class="block-hider-hide" alt="Esconder o bloco Agenda" src="novoBotao_arquivos/switch_minus.svg" tabindex="0" title="Esconder o bloco Agenda"><img class="block-hider-show" alt="Mostrar o bloco Agenda" src="novoBotao_arquivos/switch_plus.svg" tabindex="0" title="Mostrar o bloco Agenda"></div><h2 id="instance-5471-header">Agenda</h2></div></div><div class="content"><div class="event"><span class="icon c0"><img src="novoBotao_arquivos/icon_003.svg" alt="" title="atividade" class="icon"></span><a href="https://graduacao.cederj.edu.br/ava/mod/assign/view.php?id=83721">Revisão de Avaliação Presencial (AP 3)</a><div class="date"><a href="https://graduacao.cederj.edu.br/ava/calendar/view.php?course=126&amp;view=day&amp;time=1546739700">sábado, 5 janeiro</a>, 23:55</div></div><div class="footer"><div class="gotocal"><a href="https://graduacao.cederj.edu.br/ava/calendar/view.php?view=upcoming&amp;course=126">Calendário</a>...</div><div class="newevent"><a href="https://graduacao.cederj.edu.br/ava/calendar/event.php?action=new&amp;course=126">Novo evento</a>...</div></div></div></div><span class="skip-block-to" id="sb-12"></span>                        </aside>
+                    </div>
+                </div>
+            </div>
+
+            <footer id="page-footer">
+                <div id="course-footer"></div>
+                <p class="helplink"></p>
+                <div class="logininfo">Você acessou como <a href="https://graduacao.cederj.edu.br/ava/user/profile.php?id=121824" title="Ver perfil">Arthur Da Silva Egide Aluno(a) - UFF - COM - DCA</a> (<a href="https://graduacao.cederj.edu.br/ava/login/logout.php?sesskey=qK8NpSmXfI">Sair</a>)</div><div class="homelink"><a href="https://graduacao.cederj.edu.br/ava/">Página inicial</a></div>            </footer>
+
+            <script type="text/javascript">
+//<![CDATA[
+var require = {
+    baseUrl : 'https://graduacao.cederj.edu.br/ava/lib/requirejs.php/1542859489/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'https://graduacao.cederj.edu.br/ava/lib/javascript.php/1542859489/lib/jquery/jquery-3.1.0.min',
+        jqueryui: 'https://graduacao.cederj.edu.br/ava/lib/javascript.php/1542859489/lib/jquery/ui-1.12.1/jquery-ui.min',
+        jqueryprivate: 'https://graduacao.cederj.edu.br/ava/lib/javascript.php/1542859489/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script type="text/javascript" src="novoBotao_arquivos/require.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+require(['core/first'], function() {
+;
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp(function(videojs) {
+        videojs.options.flash.swf = "https://graduacao.cederj.edu.br/ava/media/player/videojs/videojs/video-js.swf";
+videojs.addLanguage("pt-BR",{
+ "Play": "Tocar",
+ "Pause": "Pausar",
+ "Current Time": "Tempo",
+ "Duration Time": "Duração",
+ "Remaining Time": "Tempo Restante",
+ "Stream Type": "Tipo de Stream",
+ "LIVE": "AO VIVO",
+ "Loaded": "Carregado",
+ "Progress": "Progresso",
+ "Fullscreen": "Tela Cheia",
+ "Non-Fullscreen": "Tela Normal",
+ "Mute": "Mudo",
+ "Unmute": "Habilitar Som",
+ "Playback Rate": "Velocidade",
+ "Subtitles": "Legendas",
+ "subtitles off": "Sem Legendas",
+ "Captions": "Anotações",
+ "captions off": "Sem Anotações",
+ "Chapters": "Capítulos",
+ "You aborted the media playback": "Você parou a execução do vídeo.",
+ "A network error caused the media download to fail part-way.": "Um erro na rede fez o vídeo parar parcialmente.",
+ "The media could not be loaded, either because the server or network failed or because the format is not supported.": "O vídeo não pode ser carregado, ou porque houve um problema com sua rede ou pelo formato do vídeo não ser suportado.",
+ "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.": "A execução foi interrompida por um problema com o vídeo ou por seu navegador não dar suporte ao seu formato.",
+ "No compatible source was found for this media.": "Não foi encontrada fonte de vídeo compatível."
+});
+
+    });
+});;
+require(["block_navigation/navblock"], function(amd) { amd.init("4"); });;
+require(["block_settings/settingsblock"], function(amd) { amd.init("5", null); });;
+
+require(['core/yui'], function(Y) {
+    M.util.init_skiplink(Y);
+});
+;
+
+require(['core/yui'], function(Y) {
+    Y.use('moodle-core-actionmenu', function() {
+        M.core.actionmenu.init();
+    });
+});
+;
+
+require(['jquery', 'message_popup/message_popover_controller'], function($, controller) {
+    var container = $('#nav-message-popover-container');
+    var controller = new controller(container);
+    controller.registerEventListeners();
+    controller.registerListNavigationEventListeners();
+});
+;
+
+require(['jquery', 'message_popup/notification_popover_controller'], function($, controller) {
+    var container = $('#nav-notification-popover-container');
+    var controller = new controller(container);
+    controller.registerEventListeners();
+    controller.registerListNavigationEventListeners();
+});
+;
+require(["core/notification"], function(amd) { amd.init(653, []); });;
+require(["core/log"], function(amd) { amd.setConfig({"level":"warn"}); });
+});
+//]]>
+</script>
+<script type="text/javascript" src="novoBotao_arquivos/footer.js"></script>
+<script type="text/javascript" src="novoBotao_arquivos/format.js"></script>
+<script type="text/javascript" src="novoBotao_arquivos/format_002.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"\u00daltima atualiza\u00e7\u00e3o","name":"Nome","error":"Erro","info":"Informa\u00e7\u00e3o","yes":"Sim","no":"N\u00e3o","viewallcourses":"Ver todos os cursos","morehelp":"Mais ajuda","loadinghelp":"Carregando...","cancel":"Cancelar","confirm":"Confirmar","areyousure":"Voc\u00ea tem certeza?","closebuttontitle":"Fechar","unknownerror":"Erro desconhecido"},"repository":{"type":"Tipo","size":"Tamanho","invalidjson":"palavra JSON inv\u00e1lida","nofilesattached":"Nenhum arquivo anexado","filepicker":"Seletor de arquivos","logout":"Sair","nofilesavailable":"Nenhum arquivo dispon\u00edvel","norepositoriesavailable":"Desculpe, nenhum dos seus reposit\u00f3rios atuais pode retornar arquivos no formato solicitado.","fileexistsdialogheader":"Arquivo existe","fileexistsdialog_editor":"Um arquivo com este nome j\u00e1 foi anexado ao texto que voc\u00ea est\u00e1 editando.","fileexistsdialog_filemanager":"Um arquivo com este nome j\u00e1 foi anexado","renameto":"Renomear para \"{$a}\"","referencesexist":"H\u00e1 {$a} arquivos pseud\u00f4nimos\/atalhos que usam este arquivo como fonte","select":"Selecione"},"admin":{"confirmdeletecomments":"Voc\u00ea est\u00e1 prestes a excluir coment\u00e1rios, tem certeza?","confirmation":"Confirma\u00e7\u00e3o"},"block_accessibility":{"saved":"Defini\u00e7\u00e3o salva","jsnosave":"Error saving settings","reset":"Setting Cleared","jsnosizereset":"Error resetting text size","jsnocolourreset":"Erro ao redefinir o esquema de cores","jsnosize":"Error changing size","jsnocolour":"Erro ao alterar o esquema de cores","jsnotloggedin":"Error! Please check if you are logged-in to the system or contact your administrator","launchtoolbar":"Launch ATbar"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+var siteadminexpansion = false;
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+(function() {setTimeout("fix_column_widths()", 20);
+Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"\n\nMathJax.Hub.Config({\n    config: [\"Accessible.js\", \"Safe.js\"],\n    errorSettings: { message: [\"!\"] },\n    skipStartupTypeset: true,\n    messageStyle: \"none\"\n});\n","lang":"en"});
+});
+ M.util.js_pending('random5c1845f8926ec10'); Y.use('block_accessibility', function(Y) { M.block_accessibility.init(Y, false, "291216");  M.util.js_complete('random5c1845f8926ec10'); });
+M.util.help_popups.setup(Y);
+Y.use("moodle-core-popuphelp",function() {M.core.init_popuphelp();
+});
+M.util.init_block_hider(Y, {"id":"inst4","title":"Navega\u00e7\u00e3o","preference":"block4hidden","tooltipVisible":"Esconder o bloco Navega\u00e7\u00e3o","tooltipHidden":"Mostrar o bloco Navega\u00e7\u00e3o"});
+M.util.init_block_hider(Y, {"id":"inst291216","title":"Acessibilidade","preference":"block291216hidden","tooltipVisible":"Esconder o bloco Acessibilidade","tooltipHidden":"Mostrar o bloco Acessibilidade"});
+M.util.init_block_hider(Y, {"id":"inst326750","title":"Ponto de Encontro","preference":"block326750hidden","tooltipVisible":"Esconder o bloco Ponto de Encontro","tooltipHidden":"Mostrar o bloco Ponto de Encontro"});
+M.util.init_block_hider(Y, {"id":"inst5466","title":"Avalia\u00e7\u00f5es, Gabaritos e Revis\u00e3o","preference":"block5466hidden","tooltipVisible":"Esconder o bloco Avalia\u00e7\u00f5es, Gabaritos e Revis\u00e3o","tooltipHidden":"Mostrar o bloco Avalia\u00e7\u00f5es, Gabaritos e Revis\u00e3o"});
+M.util.init_block_hider(Y, {"id":"inst5467","title":"Participantes","preference":"block5467hidden","tooltipVisible":"Esconder o bloco Participantes","tooltipHidden":"Mostrar o bloco Participantes"});
+M.util.init_block_hider(Y, {"id":"inst5468","title":"Avisos","preference":"block5468hidden","tooltipVisible":"Esconder o bloco Avisos","tooltipHidden":"Mostrar o bloco Avisos"});
+M.util.init_block_hider(Y, {"id":"inst5469","title":"Materiais","preference":"block5469hidden","tooltipVisible":"Esconder o bloco Materiais","tooltipHidden":"Mostrar o bloco Materiais"});
+M.util.init_block_hider(Y, {"id":"inst5472","title":"Tutoria","preference":"block5472hidden","tooltipVisible":"Esconder o bloco Tutoria","tooltipHidden":"Mostrar o bloco Tutoria"});
+M.util.init_block_hider(Y, {"id":"inst5473","title":"Correio eletr\u00f4nico","preference":"block5473hidden","tooltipVisible":"Esconder o bloco Correio eletr\u00f4nico","tooltipHidden":"Mostrar o bloco Correio eletr\u00f4nico"});
+M.util.init_block_hider(Y, {"id":"inst5474","title":"Ferramentas","preference":"block5474hidden","tooltipVisible":"Esconder o bloco Ferramentas","tooltipHidden":"Mostrar o bloco Ferramentas"});
+M.util.init_block_hider(Y, {"id":"inst5471","title":"Agenda","preference":"block5471hidden","tooltipVisible":"Esconder o bloco Agenda","tooltipHidden":"Mostrar o bloco Agenda"});
+ M.util.js_pending('random5c1845f8926ec33'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random5c1845f8926ec33'); });
+})();
+//]]>
+</script>
+
+        </div>
+    
+
+</body></html>

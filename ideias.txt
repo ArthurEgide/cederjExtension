@@ -1,0 +1,35 @@
+Background e botão com popup de uma pagina informativa
+
+- Supervisão das visualizações das aulas
+    Verificar quais pontos da aula ja foi assistido
+    
+    Armazenar:
+        momento parou
+        caso assistiu inteiro
+        marcação de dúvida
+
+    Player:
+        Velocidade de reprodução
+        Autogerador de legenda
+        Atalhos de teclado
+            voltar/avançar x segundos
+            etc...
+
+    Material:
+        Facilitar acesso:
+            Material de reforço
+            Exercicio
+            data:
+                AD e AP
+
+    Auxiliar:
+        Status de visualização das aulas
+            vermelho: Atrasado
+            amarelo: pouco atrasado 
+            verde: Em dia
+
+    Links externos:
+        OneDrive avaliações antigas
+        Redes sociais:
+            Whatsapp
+            Facebook

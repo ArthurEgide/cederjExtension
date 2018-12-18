@@ -1,0 +1,1 @@
+M.course=M.course||{};M.course.format=M.course.format||{};M.course.format.showInfo=function(id){new M.core.dialogue({draggable:!0,headerContent:'<span>'+M.str.moodle.info+'</span>',bodyContent:Y.Node.one('#'+id),centered:!0,width:'480px',modal:!0,visible:!0});Y.Node.one('#'+id).show()}

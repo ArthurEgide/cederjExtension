@@ -1,0 +1,21 @@
+
+	
+	#page { /* block elements */
+		font-size: 93.0% !important;
+		line-height:1.5; /*WCAG 2.0*/
+	}
+
+	#page *{
+		line-height: inherit !important;
+		font-size: inherit !important;
+	}
+
+
+	/* issue #74 - default h* sizes from Moodle CSS */
+	#page #page-header h1, #page #region-main h1{font-size:29.76px !important}
+	#page #page-header h2, #page #region-main h2{font-size:26.04px !important}
+	#page #page-header h3, #page #region-main h3{font-size:22.32px !important}
+	#page #page-header h4, #page #region-main h4{font-size:18.6px !important}
+	#page #page-header h5, #page #region-main h5{font-size:14.88px !important}
+	#page #page-header h6, #page #region-main h6{font-size:11.16px !important}
+	#block_accessibility_colour2{background-color:#FFFFCC !important;}#block_accessibility_colour3{background-color:#99CCFF !important;}#block_accessibility_colour4{color:#FFFF00 !important;background-color:#000000 !important;}
