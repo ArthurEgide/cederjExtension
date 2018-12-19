@@ -1,20 +1,16 @@
 var myVideo=document.getElementById("custom_video_play");
 var varA=document.getElementById("var").value;
 
-
-function makeBig()
-{
-    myVideo.width=450;
-}
-function makeSmall()
-{
-    myVideo.width=250;
-}
-
-function makeNormal()
+function doSomething()
 {
     myVideo.width=325;
-    document.getElementById("var").innerHTML = "varA"; 
-
-
+    document.getElementById("var").innerHTML = "ReDPrimer"; 
 }
+
+videojs('vidId').ready(function() {
+    this.hotkeys({
+      volumeStep: 0.1,
+      seekStep: 5,
+      enableModifiersForNumbers: false
+    });
+  });
