@@ -1,5 +1,16 @@
-var myVideo=document.getElementById("custom_video_play");
-var varA=document.getElementById("var").value;
+var play = document.querySelector('#play');
+var pause = document.querySelector('#pause');
+var video = document.querySelector('video');
+
+play.addEventListener('click', function(){
+  video.play();
+
+});
+
+pause.addEventListener('click', function(){
+  video.pause();
+
+});
 
 function doSomething()
 {
@@ -7,10 +18,3 @@ function doSomething()
     document.getElementById("var").innerHTML = "ReDPrimer"; 
 }
 
-videojs('vidId').ready(function() {
-    this.hotkeys({
-      volumeStep: 0.1,
-      seekStep: 5,
-      enableModifiersForNumbers: false
-    });
-  });
