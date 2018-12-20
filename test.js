@@ -12,9 +12,18 @@ pause.addEventListener('click', function(){
 
 });
 
-function doSomething()
-{
-    myVideo.width=325;
-    document.getElementById("var").innerHTML = "ReDPrimer"; 
-}
+recuar.addEventListener('click', function(){
+  //alert(video.currentTime);
+  video.currentTime -= 2;
+});
 
+avancar.addEventListener('click', function(){
+  //alert(video.currentTime);
+  video.currentTime += 2;
+});
+
+telaCheia.addEventListener('click', function(){
+  //alert(video.currentTime);
+  video.webkitEnterFullScreen();
+  video.webkitEnterFullscreen();
+});
