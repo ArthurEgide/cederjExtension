@@ -6,11 +6,18 @@
     
     <body>
         <h1>ReDPrimer</h1>
-
+        <h4 id="contador">
+            <script>
+                var video = document.querySelector('video');
+                document.getElementById("video").innerHTML = video.currentTime; 
+                
+            </script>
+        </h4>
         <video>
             <source src = "test.mp4" type="video/mp4"></source>
+            
         </video>
-
+        
         <ul>
             <li><button id="play"> Play </button></li>
             <li><button id="pause"> Pause </button></li>
@@ -19,6 +26,7 @@
             <li><button id="telaCheia"> Tela Cheia </button></li>
 
         </ul>
+        
         <script src = "test.js"></script>
     </body>    
 
