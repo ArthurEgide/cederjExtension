@@ -1,11 +1,9 @@
-document.body.style.border = "5px solid purple";
-
 var video = document.querySelector('video');
 
 
 onkeypress = function(event){
-    //alert(event.code);
-
+    alert(event.code);
+    video.focus;
     switch(event.code){
         case "KeyF":
         
@@ -29,10 +27,17 @@ onkeypress = function(event){
         case "Digit7":
         case "Digit8":
         case "Digit9":
-        //alert("pressionado");
+        
         video.currentTime = videoJump(event.code);
         break;
     
+        case "Enter":
+        case "NumpadEnter":
+          var momento = (video.currentTime + "s");
+          var marca = prompt("Nota sobre a marcação","'Equação de 2° grau'");
+          alert("Marcar momento video");
+          alert(momento + "\n" + marca);
+        break;
       }
 }
 

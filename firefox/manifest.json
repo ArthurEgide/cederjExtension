@@ -6,7 +6,7 @@
     "description": "Adiciona atalhos e utilidades às video aulas",
   
     "icons": {
-      "48": "icons/border-48.png"
+      "48": "icons/cdrjIcon.png"
     },
     
     "content_scripts": [
