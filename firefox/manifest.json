@@ -12,7 +12,7 @@
     "content_scripts": [
       {
         "matches": ["*://*.cederj.edu.br/*","*://videoaula.rnp.br/*"],
-        "js": ["jscript.js"],
+        "js": ["jscript.js","http://videoaula.rnp.br/riofunctions.js"],
         "css": ["style.css"]
       }
     ]

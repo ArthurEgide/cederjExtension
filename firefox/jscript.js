@@ -1,12 +1,14 @@
 var video = document.querySelector('video');
 
+focusMethod = function getFocus() {           
+  video .focus();
+}
 
 onkeypress = function(event){
-    alert(event.code);
-    video.focus;
+    //alert(event.code);
+    document.getElementById("RIOvideo").focus();
     switch(event.code){
         case "KeyF":
-        
         if (video.requestFullscreen) {
             video.requestFullscreen();
           } else if (video.msRequestFullscreen) {
@@ -18,6 +20,11 @@ onkeypress = function(event){
           }
         break;
     
+        case "KeyA":
+          alert("est");
+          RIOchangeSlide('NEXT');
+        break;
+        
         case "Digit1":
         case "Digit2":
         case "Digit3":
@@ -34,8 +41,7 @@ onkeypress = function(event){
         case "Enter":
         case "NumpadEnter":
           var momento = (video.currentTime + "s");
-          var marca = prompt("Nota sobre a marcação","'Equação de 2° grau'");
-          alert("Marcar momento video");
+          var marca = prompt("Nota sobre a marcação","");
           alert(momento + "\n" + marca);
         break;
       }
