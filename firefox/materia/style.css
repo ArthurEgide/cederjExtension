@@ -1,7 +1,29 @@
 .statusCircle {
     height: 15px;
     width: 15px;
-    background-color: yellow;
     border-radius: 50%;
+    border-color: darkgoldenrod;
     display: inline-table;
+}
+
+.statusCircle.red{
+    background-color: red;
+}
+
+.statusCircle.green{
+    background-color: springgreen;
+}
+
+.statusCircle.blue{
+    background-color: blue;
+}
+
+.statusCircle.gray{
+    background-color: darkslategrey;
+}
+
+div.RIOindex.embed_on #index1 {
+
+    background: red;
+
 }

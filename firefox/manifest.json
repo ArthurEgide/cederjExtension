@@ -11,7 +11,6 @@
     
     "content_scripts": [
       {
-<<<<<<< HEAD
         "matches": ["*://videoaula.rnp.br/*"],
         "js": ["videoTools/mediaControl.js"],
         "css": ["videoTools/style.css"]
@@ -21,11 +20,6 @@
         "matches": ["*://*.cederj.edu.br/*"],
         "css": ["materia/style.css"],
         "js": ["materia/disciplina.js"]
-=======
-        "matches": ["*://*.cederj.edu.br/*","*://videoaula.rnp.br/*"],
-        "js": ["jscript.js","http://videoaula.rnp.br/riofunctions.js"],
-        "css": ["style.css"]
->>>>>>> 8411217a6304e5c5159c61f1ae491ca3670cdd0f
       }
     ]
 }
