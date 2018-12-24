@@ -1,5 +1,3 @@
-document.body.style.border = "5px solid purple";
-
 var video = document.querySelector('video');
 
 
@@ -29,10 +27,18 @@ onkeypress = function(event){
         case "Digit7":
         case "Digit8":
         case "Digit9":
-        //alert("pressionado");
+        
         video.currentTime = videoJump(event.code);
         break;
-    
+        
+        case "Enter":
+        case "NumpadEnter":
+          var tempo = video.currentTime,
+              marca = window.prompt("Nota sobre a marcação","");
+          if(window.confirm("Quer salvar '" + marca + "'\n mesmo?")){
+            alert(tempo + "s\n" + marca + "\nSalvo com sucesso")
+          }
+        break;
       }
 }
 
