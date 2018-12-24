@@ -11,9 +11,15 @@
     
     "content_scripts": [
       {
-        "matches": ["*://*.cederj.edu.br/*","*://videoaula.rnp.br/*"],
-        "js": ["videoTools/jscript.js"],
+        "matches": ["*://videoaula.rnp.br/*"],
+        "js": ["videoTools/mediaControl.js"],
         "css": ["videoTools/style.css"]
+      },
+      
+      {
+        "matches": ["*://*.cederj.edu.br/*"],
+        "css": ["materia/style.css"],
+        "js": ["materia/disciplina.js"]
       }
     ]
 }
